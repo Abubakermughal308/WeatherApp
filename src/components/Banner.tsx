@@ -1,4 +1,4 @@
-import React from 'react'
+
     
 interface BannerProps {
     name : string;
@@ -9,7 +9,7 @@ interface BannerProps {
 }
 
 
-const Banner = ({name , description , humidity , lon}:BannerProps) => {
+const Banner = ({name , description }:BannerProps) => {
   return (
     <div>
     <div>

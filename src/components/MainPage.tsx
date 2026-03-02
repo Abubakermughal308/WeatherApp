@@ -80,7 +80,7 @@
 // // export default MainPage
 
 import axios, { type AxiosResponse } from "axios";
-import { Loader, LoaderCircle } from "lucide-react";
+import { Loader } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { useGetWeatherIcon } from "./useGetWeatherIcon";
 
